@@ -16,6 +16,7 @@ body {
 /* Navbar */
 nav {
     background-color: #ffffff;
+    margin: 0 3rem;
 }
 
 .nav-logo {
@@ -30,7 +31,7 @@ nav {
 }
 
 #p-1 {
-    color: #0077cc;
+    color: #2F98C2;
 }
 
 #p-2 {
@@ -70,13 +71,18 @@ footer {
     width: 241px;
 height: 63px;
 }
-
+.footer-left{
+    width: 40%;
+}
 .footer-left p {
     color: white;
     font-size: 14px;
     line-height: 1.5;
+    width: 100%;
 }
-
+.footer-left div{
+width: 30%;
+}
 .footer-right p:first-child {
     font-weight: 700;
     color: #ffffff;
@@ -92,6 +98,12 @@ height: 63px;
 .footer-right {
     display: flex;
     flex-wrap: wrap;
+    margin: 2rem;
+    width: 40%;
+}
+
+.footer-left{
+    margin: 2rem;
 }
 
 .footer-right div {
@@ -108,7 +120,6 @@ footer .d-flex.gap-5 img:hover {
     opacity: 0.8;
 }
 
-/* Responsiveness */
 @media (max-width: 428px) {
     /* Nav */
     nav{
@@ -118,15 +129,32 @@ flex-direction: column;
 nav img{
 margin: 1rem;
 }
+#p-1,
+#p-2 {
+    font-size: 20px;
+    font-weight: 400;
+}
 /* Main */
+main{
 
+}
 .Section-1{
     display: flex;
 flex-direction: column-reverse;
+justify-content: center;
 }
 .Section-1 button{
     margin-bottom: 3rem;
     }
+
+    #label-div{
+width: 15rem;
+    }
+main h1{
+    font-size: 2.25rem;
+}
+
+
     /* Footer */
     footer{
         display: flex;
@@ -139,7 +167,6 @@ flex-direction: column-reverse;
     }
 
      #footer-div p{
-font-size: 18px;
+font-size: 16px;
     }
-
 }
